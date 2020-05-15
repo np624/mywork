@@ -5,14 +5,51 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title></title>
     <style>
+      
+        .main{
+            display: inline;
+            padding-right: 20px;
+            font-family: 'Times New Roman';
+        }
 
+        .nav_right{
+            float: right;
+           
+        }
+        .nav_left{
+            float: left;
+        }
+
+        .main_body{
+            display: block;
+            margin: auto;
+            
+        }
+        .img{
+            
+        }
+        .search{
+           
+            width: 200px;
+        }
     </style>
 </head>
-<body>
-    <div class="main">
-        <div class="nav">
-            <div></div>
+<body class=".main_body">
+    <header class="main">
+        <div class="nav_left">
+            <div class="main"><a href="boogle.html">Web</a></div>
+            <div class="main"><a href="#">Images</a></div>
+            <div class="main"><a href="#">Maps</a></div>
+            <div class="main"><a href="#">more</a></div>
+        </div>  
+        <div class="nav_right">
+            <div class="main"><a href="#">iBoogle</a></div>
+            <div class="main"><a href="#">Sign In</a></div>  
         </div>    
+    </header>
+    <div class="main_body">
+        <div><img src="Boogle.PNG" alt="Not Found"></div>
+        <div class="search"><input type="text"></div>
     </div>
 </body>
 </html>
