@@ -12,17 +12,17 @@
         <div class="title"><h1>Sign up</h1></div>
         <div class="title"><hr></div>    
         <form class="form" method="POST">
-            <div>Your username</div>
-            <div><input type="text" name="" placeholder="mysuperusername690" id=" pattern="[A-Za-z0-9]+" required /></div>
-            <div>Your Email</div>
-            <div><input type="email" name="" placeholder="mysuperemail@gmail.com" id="" 
+            <div><label for="username">Your username</label></div>
+            <div><input type="text" name="username" placeholder="mysuperusername690" id="username" pattern="[A-Za-z0-9]+" required /></div>
+            <div><label for="email">Your Email</label></div>
+            <div><input type="email" name="email" placeholder="mysuperemail@gmail.com" id="email" 
                 pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
                  required /></div>
-            <div>Your Password</div>
-            <div><input type="password" name="" placeholder="Xabc890Xyz" id="" required /></div>
-            <div>Please confirm your Password</div>
-            <div><input type="password" name="" placeholder="Xabc890Xyz" id="" required /></div>
-            <div class="txt_align"><input class="signup" type="button" value="SIGN UP"></div>
+            <div><label for="pwd">Your Password</label></div>
+            <div><input type="password" name="" placeholder="Xabc890Xyz" id="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required /></div>
+            <div><label for="con_pwd">Please confirm your Password</label></div>
+            <div><input type="password" name="con_pwd" placeholder="Xabc890Xyz" id="con_pwd"  required /></div>
+            <div class="txt_align"><input class="signup" type="submit" value="SIGN UP"></div>
          
             <div class="txt_align">
                 <b>Already A member?</b>
