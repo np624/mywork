@@ -9,25 +9,27 @@
 </head>
 <body>
     <div class="form_main">
-        <div class="form_0">
-            <div><h1>Sign up</h1></div>
-            <div><hr></div>    
-        </div>
-        <div class="form_1">
+        <div class="title"><h1>Sign up</h1></div>
+        <div class="title"><hr></div>    
+        <form class="form" method="POST">
             <div>Your username</div>
-            <div><input class="input-txt" type="text" name="" placeholder="mysuperusername690" id=""></div>
+            <div><input type="text" name="" placeholder="mysuperusername690" id=" pattern="[A-Za-z0-9]+" required /></div>
             <div>Your Email</div>
-            <div><input type="email" name="" placeholder="mysuperemail@gmail.com" id=""></div>
+            <div><input type="email" name="" placeholder="mysuperemail@gmail.com" id="" 
+                pattern="[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?"
+                 required /></div>
             <div>Your Password</div>
-            <div><input type="password" name="" placeholder="Xabc890Xyz" id=""></div>
+            <div><input type="password" name="" placeholder="Xabc890Xyz" id="" required /></div>
             <div>Please confirm your Password</div>
-            <div><input type="password" name="" placeholder="Xabc890Xyz" id=""></div>
-            <div><input type="button" value="SIGN UP"></div> 
-        </div>   
-        <div class="form_footer">
-            <div><b>Already A member?</b></div>
-            <div><input type="button" value="Go and Log in"></div>
-        </div>
+            <div><input type="password" name="" placeholder="Xabc890Xyz" id="" required /></div>
+            <div class="txt_align"><input class="signup" type="button" value="SIGN UP"></div>
+         
+            <div class="txt_align">
+                <b>Already A member?</b>
+                <input type="button" value="Go and Log in">
+            </div> 
+        </form>   
     </div>
+
 </body>
 </html>
