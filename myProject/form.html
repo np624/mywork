@@ -11,7 +11,7 @@
     <div class="form_main">
         <div class="title"><h1>Sign up</h1></div>
         <div class="title"><hr></div>    
-        <form class="form" method="POST">
+        <form class="form" action="output.html" method="POST">
             <div><label for="username">Your username</label></div>
             <div><input type="text" name="username" placeholder="mysuperusername690" id="username" pattern="[A-Za-z0-9]+" required /></div>
             <div><label for="email">Your Email</label></div>
@@ -26,7 +26,7 @@
          
             <div class="txt_align">
                 <b>Already A member?</b>
-                <input type="button" value="Go and Log in">
+                <input type="button" onclick="location.href = '#';" value="Go and Log in">
             </div> 
         </form>   
     </div>
