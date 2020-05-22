@@ -1,0 +1,25 @@
+.form_main{
+    border: 1px solid black;
+    width: 50%; 
+    margin: 0 auto;  
+}
+
+.form_0{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.form_1{
+    margin-left: 30%;
+    padding: 5%;
+}
+
+input[type=text], input[type=email], input[type=password] {
+    width: 70%;
+}
+
+.input-txt{
+    width: 70%;
+}
+

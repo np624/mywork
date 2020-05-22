@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  height: 100%;
 }
 
 header {
@@ -70,8 +71,10 @@ li.nav-links a:hover {
   display: block;
   margin: 0 auto;
   clear: both;
-  padding-top: 112px;
-  padding-bottom: 20px;
+  /* padding-top: 112px;
+  padding-bottom: 20px; */
+  width: 758px;
+  height: 250px;
 }
 
 .form {
@@ -91,7 +94,7 @@ li.nav-links a:hover {
 .buttons {
   text-align: center;
   padding-top: 30px;
-  margin-bottom: 300px;
+  margin-bottom: 260px;
 }
 
 /* FOOTER */
@@ -101,7 +104,7 @@ footer  {
   bottom: 0;
   padding-bottom: 0;
   width: 100%;
-  
+  height: auto;
 }
 
 footer ul li {
